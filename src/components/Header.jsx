@@ -128,7 +128,7 @@ const Header = () => {
 
         <div className="flex h-[33px] w-[109px] max-w-sm rounded-lg bg-gradient-to-tr from-pink-600 to-blue-600 p-px shadow-lg md:mr-[88px] md:h-[43px] md:w-[158px]">
           <button className="flex flex-1 items-center justify-center rounded-lg bg-white text-left font-darker-grotesque text-sm font-bold leading-[1.5] text-[rgb(3,6,16)] hover:opacity-75 md:justify-between md:px-5 md:py-[7px] md:text-lg">
-            Start free trial
+            Contactar
             <img src={ArrowRight} alt="Start free trial" />
           </button>
         </div>
