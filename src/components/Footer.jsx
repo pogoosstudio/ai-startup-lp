@@ -18,8 +18,7 @@ const Footer = () => {
             />
           </a>
           <p className="-mt-3 font-darker-grotesque text-[15px] text-[#081a56] md:-mt-0 md:text-lg">
-            "Effortlessly organize and find your photos with VIXC – your
-            AI-powered solution!"
+            "Pogo OS Studio tu solución tecnológica completa."
           </p>
           <div className="-mt-2 md:-mt-0">
             <img src={TwitterIcon} alt="Twitter Icon" />
@@ -30,38 +29,38 @@ const Footer = () => {
           {/* left */}
           <div className="">
             <h5 className="font-space-grotesk text-[15px] leading-[150%] text-[#030610] md:text-xl">
-              Company
+              Compañía
             </h5>
             <div className="flex flex-col md:pt-2">
               <a
                 className="font-darker-grotesque text-[16px] font-semibold leading-[150%] text-[#081a56] hover:text-black hover:underline md:text-xl"
                 href="#home"
               >
-                Home
+                Inicio
               </a>
               <a
                 className="font-darker-grotesque text-[16px] font-semibold leading-[150%] text-[#081a56] hover:text-black hover:underline md:text-xl"
                 href="#features"
               >
-                Features
+                Proyectos
               </a>
               <a
                 className="font-darker-grotesque text-[16px] font-semibold leading-[150%] text-[#081a56] hover:text-black hover:underline md:text-xl"
                 href="#how-to-use"
               >
-                How to use
+                Pogo OS
               </a>
               <a
                 className="font-darker-grotesque text-[16px] font-semibold leading-[150%] text-[#081a56] hover:text-black hover:underline md:text-xl"
                 href="#plans"
               >
-                Plans
+                PogoGPT DC
               </a>
               <a
                 className="font-darker-grotesque text-[16px] font-semibold leading-[150%] text-[#081a56] hover:text-black hover:underline md:text-xl"
                 href="#chatbot"
               >
-                Chatbot
+                PogoGPT TM
               </a>
               <a
                 className="font-darker-grotesque text-[16px] font-semibold leading-[150%] text-[#081a56] hover:text-black hover:underline md:text-xl"
@@ -83,27 +82,27 @@ const Footer = () => {
                   className="font-darker-grotesque text-[16px] font-semibold leading-[150%] text-[#081a56] hover:text-black hover:underline md:text-xl"
                   href="#"
                 >
-                  Privacy Policy
+                  Política de privacidad
                 </a>
                 <a
                   className="font-darker-grotesque text-[16px] font-semibold leading-[150%] text-[#081a56] hover:text-black hover:underline md:text-xl"
                   href="#"
                 >
-                  Terms & Conditions
+                  Términos y condiciones
                 </a>
               </div>
             </div>
             {/* bottom */}
             <div className="">
               <h5 className="font-space-grotesk text-[15px] leading-[150%] text-[#030610] md:text-xl">
-                Contact Us
+                Contáctanos
               </h5>
               <div className="flex flex-col">
                 <a
                   className="font-darker-grotesque text-[16px] font-semibold leading-[150%] text-[#081a56] hover:text-black hover:underline md:text-xl"
-                  href="mailto:support@vixc.com"
+                  href="mailto:contact@pogoos.info"
                 >
-                  support@vixc.com
+                  contact@pogoos.info
                 </a>
               </div>
             </div>
@@ -112,19 +111,19 @@ const Footer = () => {
         {/* newsletter */}
         <div className="ml-[33px] mt-11 flex w-[254px] flex-col items-center justify-center gap-1 md:ml-0 md:mt-4 md:px-0">
           <h3 className="self-start font-space-grotesk text-[15px] leading-[150%] text-[#030610] md:text-xl">
-            Newsletter
+            Boletin informativo
           </h3>
           <form className="flex w-full flex-col">
             <input
               className="my-[5px] h-[33px] w-full rounded-lg border border-[#a7a7a7] bg-white px-[13px] py-2 font-darker-grotesque text-xs md:h-[43px]"
               type="text"
-              placeholder="Enter your email address"
+              placeholder="Introduce tu correo electrónico"
             />
             <button
               type="submit"
               className="z-20 flex h-[33px] w-full items-center justify-center rounded-lg bg-gradient-to-r from-[#8D1EA2] to-[#090EDB] px-[15px] py-[12px] font-darker-grotesque text-sm font-bold text-white hover:opacity-75 md:h-[43px] md:justify-center md:px-[24px] md:py-[14px] md:text-lg"
             >
-              Subscribe
+              Suscribir
               <svg
                 width="16.000000"
                 height="19.000000"
@@ -146,15 +145,15 @@ const Footer = () => {
             </button>
           </form>
           <p className="pt-2 font-darker-grotesque text-xs font-medium leading-[150%] text-[#697586] md:pt-1">
-            By subscribing you agree to with our{" "}
-            <span className="text-[#030610]">Privacy Policy</span> and provide
-            consent to receive updates from our company.
+            Al suscribirte aceptas nuestra{" "}
+            <span className="text-[#030610]">política de privacidad</span> and provide
+            y consiente recibir actualizaciones de nuestra empresa.
           </p>
         </div>
       </div>
       {/* bottom */}
       <div className="mb-10 pt-7 font-darker-grotesque text-[15px] text-[#081a56] md:pl-4 md:pt-16 md:text-lg">
-        Copyright © 2024, All rights reserved by VIXC
+        Copyright © 2024, All rights reserved by Pogo OS Studio
       </div>
     </footer>
   );
