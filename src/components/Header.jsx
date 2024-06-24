@@ -172,10 +172,7 @@ const Header = () => {
           </span>
         </h1>
         <p className="mt-[14px] text-center font-darker-grotesque text-[15px] leading-[1.5] text-[#081A56] md:mt-[26px] md:px-[82.5px] md:text-lg">
-          Meet VIXC, the ultimate photo search solution. With its intuitive web
-          portal and mobile app, finding memories is as easy as saying, "Show me
-          San Francisco lake photos." VIXC makes browsing effortless,
-          transforming photo search into a delightful experience.
+          Presentándote a Pogo OS Studio, tu solución tecnológica completa. Con una amplia variedad de productos como bots de Discord y Telegram, sitios web y aplicaciones, Pogo OS Studio te ofrece una experiencia sin igual. Tu vida digital nunca será igual cuando descubras lo fácil que es hacer lo que quieres hacer con el estudio de tecnología más fresco.
         </p>
         {/* buttons */}
         <div className="relative z-20 mx-[61.5px] flex flex-col items-start justify-start gap-1 pt-[23px] md:mx-0 md:flex-row md:gap-[18px] md:py-[30px]">
@@ -185,7 +182,7 @@ const Header = () => {
             alt="Arrow Curved"
           />
           <button className="flex w-full items-center justify-center rounded-lg bg-gradient-to-r from-[#8D1EA2] to-[#090EDB] px-[15px] py-[12px] font-darker-grotesque text-sm font-medium text-white hover:brightness-150 md:w-[187px] md:justify-between md:px-[24px] md:py-[14px] md:text-lg">
-            Schedule a demo
+            Discord
             <svg
               width="16.000000"
               height="19.000000"
@@ -208,7 +205,7 @@ const Header = () => {
           <div className="flex max-w-sm rounded-lg bg-gradient-to-tr from-pink-600 to-blue-600 p-px shadow-lg">
             <button className="flex flex-1 items-center justify-between gap-1 rounded-lg bg-white px-[10px] py-3 text-left font-darker-grotesque text-sm font-bold leading-[1.5] text-[rgb(3,6,16)] hover:opacity-75 md:px-[23px] md:py-[13px] md:text-lg">
               <img src={GoogleBtn} alt="" />
-              Get started with Google
+              Gmail
               <img src={ArrowRight} alt="" />
             </button>
           </div>
