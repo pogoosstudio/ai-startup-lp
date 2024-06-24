@@ -144,18 +144,18 @@ const Header = () => {
         <div className="mt-[18px] flex items-center justify-center gap-2 md:mt-0">
           <img src={UnionL} alt="" />
           <h5 className="text-center font-darker-grotesque text-[10px] font-bold leading-[1.5] text-[#030610] md:mt-0 md:text-lg">
-            TOP AI PLATFORM
+            BIENVENIDO A
           </h5>
           <img src={UnionR} alt="" />
         </div>
         {/* text */}
         <h1 className="relative pt-[2px] text-center font-space-grotesk text-[40px] font-semibold leading-[110%] md:pt-0 lg:text-[52px] xl:text-[70px]">
           <span className="bg-gradient-to-r from-purple-600 to-blue-900 bg-clip-text text-transparent">
-            Transform
-          </span>{" "}
+            Pogo OS Studio
+            {/*</span>{" "}
           your photo search with{" "}
           <span className="relative inline-block">
-            AI precision
+            AI precision*/}
             <svg
               className="absolute -bottom-4 left-0 h-8 w-full"
               viewBox="0 0 100 10"
